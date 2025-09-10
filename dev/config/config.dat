@@ -1,0 +1,9 @@
+# Configuration File
+# Delimiter: '='
+# Comments start with '#'
+
+# Host IP Address
+host = 127.0.0.1
+
+# Port Number
+port = 3000
