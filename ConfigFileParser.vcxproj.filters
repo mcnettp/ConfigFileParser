@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="dev">
+      <UniqueIdentifier>{697aaf90-215b-42fa-9ba4-54d10c7ed423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\source">
+      <UniqueIdentifier>{44f85c7b-b130-49e2-b4f7-67138826cbfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\include">
+      <UniqueIdentifier>{c6b93767-b625-4681-a382-feb9c42bb421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\config">
+      <UniqueIdentifier>{b6ba6bd7-eb6e-4ab2-93b2-6366f8fc452a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dev\source\config_file_parser.cpp">
+      <Filter>dev\source</Filter>
+    </ClCompile>
+    <ClCompile Include="dev\source\main.cpp">
+      <Filter>dev\source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dev\include\config_file_parser.h">
+      <Filter>dev\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dev\config\config.dat">
+      <Filter>dev\config</Filter>
+    </None>
+  </ItemGroup>
+</Project>
